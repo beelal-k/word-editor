@@ -1,0 +1,20 @@
+
+.sect{
+    width: 20%;
+    border: 1px solid black;
+}
+
+
+#top{
+    display: flex;
+    border: 1px solid red;
+    height: 100px;
+    justify-content:center;
+}
+
+#bot{
+    display: flex;
+    border: 1px solid blue;
+    height: 200px;
+    align-items: center;
+}
