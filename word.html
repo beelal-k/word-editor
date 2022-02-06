@@ -17,10 +17,19 @@
     <main class="">
 
         <div class="test" id="top">
-            <div class="sect">
-                
+
+            <div class="sect text-center">
+                Font
+                <hr class="col-6">
+                <select name="fonts" id="selectFont" onchange="fontSelect()">
+                    <option value="none">Select Font</option>
+                    <option value="ari" class="">Arial</option>
+                    <option value="helv" class="helvetica">Helvetica</option>
+                    <option value="imp" class="impact">Impact</option>
+                    <option value="geo" class="georgia">Georgia</option>
+                    <option value="newRome" class="NewRoman">Times New Roman</option>
+                </select>
             </div>
-            <div class="sect"></div>
             <div class="sect"></div>
             <div class="sect"></div>
             <div class="sect"></div>
@@ -30,7 +39,10 @@
             <div class="sect"></div>
 
         </div>
-        <div class="test" id="bot">world</div>
+        <br>
+        <br>
+        <br>
+        <div class="test col-12 border" id="bot"><textarea class="col-12 h-100" id="Inptxt"></textarea></div>
 
     </main>
 
