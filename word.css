@@ -1,20 +1,61 @@
+main{
+    font-family: cursive;
+}
+
+
+.test{
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
 
 .sect{
     width: 20%;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.2 );
+    
 }
 
 
 #top{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100px;
     justify-content:center;
 }
 
 #bot{
     display: flex;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 200px;
     align-items: center;
+}
+
+#selectFont{
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+textarea{
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.arial{
+    font-family: Arial;
+}
+
+.helvetica{
+    font-family: Helvetica;
+}
+
+.impact{
+    font-family: Impact;
+}
+.futura{
+    font-family: Georgia;
+}
+
+.NewRoman{
+    font-family: 'Times New Roman';
 }
