@@ -16,6 +16,7 @@ main{
 }
 
 
+
 #top{
     display: flex;
     /* border: 1px solid red; */
@@ -32,13 +33,21 @@ main{
 
 #selectFont{
     margin-top: 5px;
-    border: 1px solid black;
+    outline: none;
+}
+
+select{
+    outline: none;
+    
 }
 
 textarea{
     border: none;
     resize: none;
     outline: none;
+    font-size: 14px;
+    
+    
 }
 
 .arial{
@@ -58,4 +67,63 @@ textarea{
 
 .NewRoman{
     font-family: 'Times New Roman';
+}
+
+
+#selectSize{
+    margin-top: 5px;
+}
+
+.eleven{
+    font-size: 11px;
+}
+
+.twelve{
+    font-size: 12px;
+}
+
+.thirteen{
+    font-size: 13px;
+}
+
+.fourteen{
+    font-size: 14px;
+}
+
+.fifteen{
+    font-size: 15px;
+}
+
+.sixteen{
+    font-size: 16px;
+}
+
+.seventeen{
+    font-size: 17px;
+}
+
+.eighteen{
+    font-size: 18px;
+}
+
+.nineteen{
+    font-size: 19px;
+}
+
+.twenty{
+    font-size: 20px;
+}
+
+.twentyone{
+    font-size: 21px;
+}
+
+.eleven{
+    font-size: 11px;
+}
+
+
+.clr{
+    width: 30px;
+    height: 30px;
 }
