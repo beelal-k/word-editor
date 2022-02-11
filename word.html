@@ -21,18 +21,50 @@
             <div class="sect text-center">
                 Font
                 <hr class="col-6">
-                <select name="fonts" id="selectFont" onchange="fontSelect()">
+                <select name="fonts" id="selectFont" onchange="fontStart()">
                     <option value="none">Select Font</option>
-                    <option value="ari" class="">Arial</option>
+                    <option value="ari" class="arial">Arial</option>
                     <option value="helv" class="helvetica">Helvetica</option>
                     <option value="imp" class="impact">Impact</option>
                     <option value="geo" class="georgia">Georgia</option>
                     <option value="newRome" class="NewRoman">Times New Roman</option>
                 </select>
             </div>
-            <div class="sect"></div>
-            <div class="sect"></div>
-            <div class="sect"></div>
+            
+                <div class="sect text-center">
+                    Size
+                    <hr class="col-6">
+                    <select name="size" id="selectSize" onchange="sizeStart()">
+                        <option value="11" class="eleven">11</option>
+                        <option value="12" class="twelve">12</option>
+                        <option value="13" class="thirteen">13</option>
+                        <option value="14" class="fourteen">14</option>
+                        <option value="15" class="fifteen">15</option>
+                        <option value="16" class="sixteen">16</option>
+                        <option value="17" class="seventeen">17</option>
+                        <option value="18" class="eighteen">18</option>
+                        <option value="19" class="nineteen">19</option>
+                        <option value="20" class="twenty">20</option>
+                        <option value="21" class="twentyone">21</option>
+                        
+                    </select>
+                </div>
+            
+            <div class="sect text-center">
+                Color
+                <hr class="col-6">
+                <input type="color" class="clr" id="clr" oninput="colorSelect()">                
+            </div>
+            <div class="sect text-center">
+                Align
+                <hr class="col-6">
+                <select name="align" id="selectAlign" onchange="alignSelect()">
+                    <option value="left">Left Align</option>
+                    <option value="right">Right Align</option>
+                    <option value="center">Center Align</option>
+                    <option value="just">Justify</option>
+                </select>
+            </div>
             <div class="sect"></div>
             <div class="sect"></div>
             <div class="sect"></div>
@@ -42,7 +74,7 @@
         <br>
         <br>
         <br>
-        <div class="test col-12 border" id="bot"><textarea class="col-12 h-100" id="Inptxt"></textarea></div>
+        <div class="test col-12 border" id="bot"><textarea class="col-12 h-100" id="Inptxt" ></textarea></div>
 
     </main>
 
